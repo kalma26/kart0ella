@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RF Kartella menu. Replaces the stock Korean file, whose nine entries all pointed at
+     rfonline.x2game.com and have been dead for years.
+
+     The client parses this at startup (loader 0x5289C0, called from 0x527F08 with
+     "%s\RF_WebURL.dat" against the localized DataTable folder). Root element must stay
+     WebBrowser; the button reads the GameBoard list, which the client caps at TEN entries
+     (cmp dword ptr [ebp-0x68], 0xA at 0x528B22). Every NameID here must have a matching
+     Element in WebInfo or the entry opens nothing.
+
+     ASCII only on purpose - the stock file was euc-kr and its captions are unreadable mojibake
+     in game. ParameterType: 0 and 2 append client parameters to the URL, 1 sends none. Use 1
+     for plain pages. -->
+<WebBrowser>
+  <WebBoard>
+    <GameBoard>
+      <pitboss />
+      <rankings />
+      <guilds />
+      <helper />
+      <dailyquest />
+      <donate />
+      <rules />
+      <roulette />
+    </GameBoard>
+    <NpcButton>
+      <jewel_list />
+      <treasure_box_list />
+      <CombineRecipeBoard />
+      <HALL_OF_FAME />
+    </NpcButton>
+  </WebBoard>
+  <WebInfo>
+    <Element NameID="pitboss"   caption="Pit Boss Schedule" sizex="820" sizey="640" ParameterType="1" URL="https://rf.kartella.net/pitboss" />
+    <Element NameID="rankings"  caption="Rankings"          sizex="900" sizey="700" ParameterType="1" URL="https://rf.kartella.net/rankings" />
+    <Element NameID="database"  caption="Monster Database"     sizex="980" sizey="720" ParameterType="1" URL="https://rf.kartella.net/database" />
+    <Element NameID="guilds"    caption="Guilds"            sizex="900" sizey="700" ParameterType="1" URL="https://rf.kartella.net/guilds" />
+    <Element NameID="helper"    caption="Kartella Clicker"  sizex="820" sizey="640" ParameterType="1" URL="https://rf.kartella.net/rules" />
+    <Element NameID="roulette"  caption="Streamer Rewards"  sizex="820" sizey="640" ParameterType="1" URL="https://rf.kartella.net/account" />
+    <Element NameID="maps"      caption="World Maps"        sizex="980" sizey="720" ParameterType="1" URL="https://rf.kartella.net/maps" />
+    <Element NameID="news"      caption="News"              sizex="900" sizey="700" ParameterType="1" URL="https://rf.kartella.net/news" />
+    <Element NameID="dailyquest" caption="Daily Quest" sizex="820" sizey="640" ParameterType="1" URL="https://rf.kartella.net/account" />
+    <Element NameID="donate"    caption="Cash Points"       sizex="820" sizey="640" ParameterType="1" URL="https://rf.kartella.net/donate" />
+    <Element NameID="rules"     caption="Server Rules"      sizex="820" sizey="640" ParameterType="1" URL="https://rf.kartella.net/rules" />
+    <Element NameID="jewel_list"         caption="Box Contents"    sizex="533" sizey="567" ParameterType="1" URL="https://rf.kartella.net/database" />
+    <Element NameID="treasure_box_list"  caption="Rewards"         sizex="533" sizey="567" ParameterType="1" URL="https://rf.kartella.net/database" />
+    <Element NameID="CombineRecipeBoard" caption="Combine Recipes" sizex="555" sizey="571" ParameterType="1" URL="https://rf.kartella.net/database" />
+    <Element NameID="HALL_OF_FAME"       caption="Hall of Fame"    sizex="584" sizey="460" ParameterType="1" URL="https://rf.kartella.net/rankings" />
+  </WebInfo>
+</WebBrowser>
