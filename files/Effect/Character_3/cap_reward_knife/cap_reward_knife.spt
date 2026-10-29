@@ -1,9 +1,0 @@
-[MagicTrack]
-create_type 10
-
-time 0
-entity_id 9011320
-pos xyz 0 -4.5 0
-color 255 80 24
-scale 1.0
-end

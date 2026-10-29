@@ -1,9 +1,0 @@
-light_map FALSE
-layer_num 1
-layer 0
-{
- type 3
- map_name field.dds
- alpha 255
- color 255 255 255
-}

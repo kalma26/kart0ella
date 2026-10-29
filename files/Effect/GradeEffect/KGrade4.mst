@@ -1,8 +1,0 @@
-layer 0
-{
- type 3
- map_name .\Effect\GradeEffect\KGradeGold.dds
- alpha 120
- color 255 255 255
- uv_env 1
-}
