@@ -31,7 +31,7 @@
 #GUILDSENATOR_NORMAL			15		170		97		255		"[S]" 		// 길드 위원회 채팅
 #GUILDSENATOR_AVATAR			15		170		97		255		"[S]"
 
-#RACE					64		144		255		255		""			// 국가 채팅
+#RACE					2		252		249		255		"[Race]"			// 국가 채팅
 #NOTIFY					255   		100    		100		255		""			// 서버 공지 메시지
 #TIP					152		171		170		255		""			// 도움말 메시지
 #STYLE					255		84		198		255		"[World]"			// World Megaphone - the all-race megaphone line (cspa 0x16)
