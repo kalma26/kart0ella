@@ -1,7 +1,8 @@
 /config.bin.zip|05a8998a3bee9b72710b993b7e079f98
 /DataTable/en-ph/NDCharacter.edf.zip|faac95f68882eac7c47bab7a2ba42bab
+/DataTable/en-ph/NDItemCash.edf.zip|ef09b07c133144045f466617365bf2eb
 /DataTable/en-ph/PitBoss.dat.zip|7d5840bdf4fad547b31b6b845a145594
-/DataTable/Item.edf.zip|d98149f6ef2d98395c943d0c143e2d87
+/DataTable/Item.edf.zip|215e9214bac959e6f0761d05b95d0cee
 /DataTable/ItemCombine.edf.zip|2aae4d6eaf16339a8a19838fecad3c9c
 /DataTable/Resource.edf.zip|c9ba4940ce81681ec6d9e3772966dc75
 /DataTable/Store.edf.zip|5e92f5a33ce53c7a88a30bc604d86f43
@@ -44,6 +45,7 @@
 /Effect/K909/Particle.INI.zip|ac77bda35091c234207ba3392dea94e9
 /Effect/K909/PatternList.txt.zip|104f3f5c4e33977464eefc0e65db81b5
 /Effect/K909/RedKnife.EFF.zip|1a5ec384dc801dbb704afad5bc1702fb
+/Map/resources/resources.spt.zip|f356ee90e00a99494322e3f63ba2bfe7
 /RF_Online.bin.zip|f4ea8266f97f7816171a8d21631df44e
 /SpriteImage/common/common/main.spr.zip|6b5c64c4a17c3d15856fa7711c59d7fc
 /SpriteImage/common/main.spr.zip|8d9d54bf508b6ac9ae305f1a6cd580e8
